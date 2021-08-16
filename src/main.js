@@ -6,6 +6,8 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
+import "./styles/index.css";
+
 new Vue({
   router,
   store,
