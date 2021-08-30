@@ -3,10 +3,10 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
-import VueTailwind from "vue-tailwind";
 
-Vue.use(VueTailwind);
 Vue.config.productionTip = false;
+
+import "./assets/tailwind.css";
 
 new Vue({
   router,
